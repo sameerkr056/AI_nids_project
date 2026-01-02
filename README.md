@@ -7,7 +7,7 @@ The system classifies network traffic into:
 
 ---
 
-## 📁 Project Files Description
+## Project Files Description
 
 - **nids_main.py**
   - Simulation Mode
@@ -21,23 +21,23 @@ The system classifies network traffic into:
   - Used for real dataset-based training and testing
 
 
-## 📊 Dataset Information
+##  Dataset Information
 
 This project is based on the **CIC-IDS 2017 dataset**, which is a standard
 benchmark dataset for intrusion detection research.
 
-⚠️ **Note:**  
+**Note:**  
 The CIC-IDS 2017 CSV files are **very large in size** and exceed GitHub's
 file upload limit. Therefore, the dataset is **not included** in this repository.
 
-### 🔗 Official Dataset Download Link:
+###  Official Dataset Download Link:
 http://cicresearch.ca/CICDataset/CIC-IDS-2017/Dataset/CIC-IDS-2017/CSVs/
 
 After downloading the dataset, update the file path in `nids_main1.py`
 to run the project in production mode.
 
 
-## 🛠 Technologies Used
+##  Technologies Used
 - Python
 - Machine Learning
 - Random Forest Algorithm
