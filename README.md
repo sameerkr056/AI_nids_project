@@ -5,8 +5,6 @@ The system classifies network traffic into:
 - BENIGN (Normal traffic)
 - Malicious (Malicious traffic)
 
----
-
 ## Project Files Description
 
 - **nids_main.py**
@@ -23,8 +21,8 @@ The system classifies network traffic into:
 
 ##  Dataset Information
 
-This project is based on the **CIC-IDS 2017 dataset**, which is a standard
-benchmark dataset for intrusion detection research.
+This project is based on the **CIC-IDS 2017 dataset**.
+
 
 **Note:**  
 The CIC-IDS 2017 CSV files are **very large in size** and exceed GitHub's
@@ -35,7 +33,6 @@ http://cicresearch.ca/CICDataset/CIC-IDS-2017/Dataset/CIC-IDS-2017/CSVs/
 
 After downloading the dataset, update the file path in `nids_main1.py`
 to run the project in production mode.
-
 
 ##  Technologies Used
 - Python
